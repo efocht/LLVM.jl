@@ -19,9 +19,10 @@ end
 
 export backends
 
-const libllvm_backends = [:AArch64, :AMDGPU, :ARC, :ARM, :AVR, :BPF, :Hexagon, :Lanai,
-                          :MSP430, :Mips, :NVPTX, :PowerPC, :RISCV, :Sparc, :SystemZ,
-                          :VE, :WebAssembly, :X86, :XCore]
+#const libllvm_backends = [:AArch64, :AMDGPU, :ARC, :ARM, :AVR, :BPF, :Hexagon, :Lanai,
+#                          :MSP430, :Mips, :NVPTX, :PowerPC, :RISCV, :Sparc, :SystemZ,
+#                          :VE, :WebAssembly, :X86, :XCore]
+const libllvm_backends = [:VE, :X86]
 
 function backends()
     filter(libllvm_backends) do backend
