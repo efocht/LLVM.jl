@@ -23,8 +23,10 @@ const llvm_version = if version() < v"12"
     "11"
 elseif version().major == 12
     "12"
-else
+elseif version().major == 13
     "13"
+else
+    "14"
 end
 const libdir = joinpath(@__DIR__, "..", "lib")
 
