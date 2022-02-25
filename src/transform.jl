@@ -146,6 +146,8 @@ end
 
 define_transforms([:LoopVectorize, :SLPVectorize])
 
+define_transforms([:RvLoopVectorize])
+
 define_transforms([:LoadStoreVectorizer])
 
 ## interprocedural transformations
