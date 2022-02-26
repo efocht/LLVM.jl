@@ -5907,8 +5907,8 @@ function LLVMAddLoopVectorizePass(PM)
     ccall((:LLVMAddLoopVectorizePass, libllvm[]), Cvoid, (LLVMPassManagerRef,), PM)
 end
 
-function LLVMAddRVLoopVectorizePass(PM)
-    ccall((:RVAddLoopVectorizePass, libllvm[]), Cvoid, (LLVMPassManagerRef,), PM)
+function LLVMAddRvLoopVectorizePass(PM)
+    ccall((:LLVMAddRvLoopVectorizePass, libllvm[]), Cvoid, (LLVMPassManagerRef,), PM)
 end
 
 function LLVMAddSLPVectorizePass(PM)

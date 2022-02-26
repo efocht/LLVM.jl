@@ -2,7 +2,7 @@
 
 julia_version = "1.8.0-DEV.1486"
 manifest_format = "2.0"
-project_hash = "473523781f612df571c7b1fe661ba36001920c8a"
+project_hash = "75c2f92d2595e8ef8ab14550d759604416f399dd"
 
 [[deps.ArgTools]]
 uuid = "0dad84c5-d112-42e6-8d28-ef12dabb789f"
@@ -100,15 +100,9 @@ version = "1.8.0"
 
 [[deps.Preferences]]
 deps = ["TOML"]
-<<<<<<< HEAD
 git-tree-sha1 = "de893592a221142f3db370f48290e3a2ef39998f"
 uuid = "21216c6a-2e73-6563-6e65-726566657250"
 version = "1.2.4"
-=======
-git-tree-sha1 = "2cf929d64681236a2e074ffafb8d568733d2e6af"
-uuid = "21216c6a-2e73-6563-6e65-726566657250"
-version = "1.2.3"
->>>>>>> Fixes for running a post v13 LLVM labeled 14.0.0 for VE and X86.
 
 [[deps.Printf]]
 deps = ["Unicode"]
@@ -125,6 +119,12 @@ uuid = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 [[deps.SHA]]
 uuid = "ea8e919c-243c-51af-8825-aaa63cd721ce"
 version = "0.7.0"
+
+[[deps.Scratch]]
+deps = ["Dates"]
+git-tree-sha1 = "0b4b7f1393cff97c33891da2a0bf69c6ed241fda"
+uuid = "6c6a2e73-6563-6170-7368-637461726353"
+version = "1.1.0"
 
 [[deps.Serialization]]
 uuid = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
